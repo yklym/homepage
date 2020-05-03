@@ -6,3 +6,6 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+::-moz-selection { background: rgb(116, 216, 250); }
+::selection { background: rgb(116, 216, 250); }
