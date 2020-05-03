@@ -1,12 +1,8 @@
-.avatar{
+.avatar {
     max-width: 100%;
 }
 
-main {
-    background-image: url("../static/waterBG.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-
-    overflow: hidden;
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
