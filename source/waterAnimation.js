@@ -1,5 +1,5 @@
 
-// A little copy/past
+// A little copy/past. Don't need enclosuring as there are no vars
 try {
     $(".hover").ripples({
         resolution: 1080,
