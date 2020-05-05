@@ -1,12 +1,11 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 main.water-bg {
-    background-image: url("../static/waterBG.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-
-    overflow: hidden;
+  background-image: url("../static/waterBG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  overflow: hidden;
 }
