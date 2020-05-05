@@ -1,29 +1,24 @@
-/* Water page */
-#water-page-body{
-    width: 100vw;
-    height: 100vh;
+#water-page-body {
+  width: 100vw;
+  height: 100vh;
 }
 
-#water-page-body main{
-    width: 100vw;
-    height: 100vh;
-
-    display: table-cell;
-
-    text-align: center;
-    color: rgb(253, 253, 253);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-    vertical-align: middle;
+#water-page-body main {
+  width: 100vw;
+  height: 100vh;
+  display: table-cell;
+  text-align: center;
+  color: rgb(253, 253, 253);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  vertical-align: middle;
 }
 
-#water-page-body h1{
-    font-size: 48px;
+#water-page-body h1 {
+  font-size: 48px;
 }
 
-
-#water-page-body a{
-    text-decoration: none;
-    color: rgb(253, 253, 253);
-    font-size: 24px;
+#water-page-body a {
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+  font-size: 24px;
 }
