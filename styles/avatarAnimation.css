@@ -1,50 +1,49 @@
 @-webkit-keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 
-    from,
-    to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
+  10%,
+  50%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
 
-    10%,
-    50%,
-    90% {
-        -webkit-transform: translate3d(-10px, 0, 0);
-        transform: translate3d(-10px, 0, 0);
-    }
-
-    25%,
-    75%,
-    100%{
-        -webkit-transform: translate3d(10px, 0, 0);
-        transform: translate3d(10px, 0, 0);
-    }
+  25%,
+  75%,
+  100% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
 }
 
 @keyframes shake {
-    from,
-    to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 
-    10%,
-    50%,
-    90% {
-        -webkit-transform: translate3d(-5px, 0, 0);
-        transform: translate3d(-5px, 0, 0);
-    }
+  10%,
+  50%,
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
 
-    25%,
-    75%,
-    100% {
-        -webkit-transform: translate3d(10px, 0, 0);
-        transform: translate3d(5px, 0, 0);
-    }
+  25%,
+  75%,
+  100% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
 }
 
 .shake {
-    -webkit-animation-name: shake;
-    animation-name: shake;
-    animation-duration: 0.5s;
+  -webkit-animation-name: shake;
+  animation-name: shake;
+  animation-duration: 0.5s;
 }
